@@ -23,3 +23,6 @@ https://github.com/
 
 搜索github开源项目
 https://github.com/search?utf8=%E2%9C%93&q=awesome
+
+删除文件或者文件夹
+本地删除再提交

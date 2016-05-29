@@ -1,7 +1,0 @@
-dsafsaccv
-
-void main ()
-{
-	
-	
-}

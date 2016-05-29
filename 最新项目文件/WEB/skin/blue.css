@@ -1,0 +1,114 @@
+/**
+ * 皮肤-商务深蓝
+ * AUTHOR van
+ * UPDATE 2013-02-19
+ */
+
+/**
+ * 基本元素的样式
+ */
+body				{ color:#000;}
+a					{ color:#003399;}
+a:hover				{ color:#333;}
+p					{ color:#333;}
+.body-padding		{ padding:0 5px; background:#5493d6 url(blue/bg.jpg) no-repeat right top;}
+
+/**
+ * 头部
+ */
+#top .logo			{ background:url(../skin/blue/logo.png) no-repeat 10px center;}
+#top .set			{ border-right:1px solid #8cd6fb; border-bottom:1px solid #8cd6fb; border-left:1px solid #8cd6fb; background:#5aa5dd;}
+#top .info .welcome { color:#fff;}
+#top .btn			{ color:#fff;}
+
+#nav-bar			{ border:1px solid #5588cc; border-bottom:none; border-radius:5px 5px 0 0; background:url() repeat-x;}
+#nav li				{ border-right:1px solid #99b0bb; border-top:1px solid #99b0bb; border-left:1px solid #99b0bb; border-radius:5px 5px 0 0;
+					  background:url() repeat-x 0 -88px;}
+#nav li:hover		{ background-position:0 -117px; color:#fff;}
+#nav li.on			{ background-position:0 -117px; color:#fff;}
+
+
+/**
+ * 布局
+ */
+#main				        { background:#fff; border:1px solid #5588cc;}
+#main .hd			        { border-bottom:1px solid #5588cc; background:url() repeat-x 0 -36px; color:#114488;}
+
+.menu-inner				    { background:#fff; border:1px solid #5588cc;}
+.menu-inner .hd			    { border-bottom:1px solid #5588cc; background:url() repeat-x 0 -62px; color:#fff;}
+
+.menu-item dl dt			{ background:#eaf6fa; color:#114488; border-bottom:1px solid #9bbbe9;}
+.menu-item dl dt .ico		{ background:url(../img/icon/folder.png) no-repeat center center;}
+.menu-item dl dt .toggle i	{ background:url(blue/togglebar.png) no-repeat -2px -1px;}
+.menu-item dl dt.open i		{ background-position:-1px -21px;}
+.menu-item dl dt .toggle:hover
+							{ background:url(blue/togglebar.png) no-repeat -1px -41px;}
+.menu-item dl dd			{ border-bottom:1px solid #9bbbe9;}
+.menu-item ul li			{ border-bottom:1px dotted #d6d6d6;}
+.menu-item ul li a			{ color:#000;}
+.menu-item ul li a:hover	{ background:#f0f7f9;}
+
+
+
+/**
+ * 门户
+ */
+.portal-item		        { border:1px solid #99bbe6;}
+.portal-item-head	        { background:#e5eef5;}
+.portal-table th            { color:#114488;}
+.ui-sortable-placeholder    { border: 1px dotted #666; background:#fefefe;}
+
+
+/**
+ * 数据列表
+ */
+.datagrid-footer            { border-top:1px solid #5588cc; background-color:#dfeef8;}
+.datagrid-head-line         { background-color:#5588cc;}
+.datagrid-head-table th     { padding:5px 0; border-right:1px solid #ccc; border-bottom:1px solid #999; background:#fdfdfd url() repeat-x bottom;}
+.datagrid-main-table td     { border-right:1px solid #ccc; border-bottom:1px solid #ccc;}
+
+.row-even					{ background:#f6fafc;}
+.row-select					{ background:#ffffe0;}
+.row-hover					{ background:#e0eaf4;}
+.datagrid-control-table .query .form-btn
+                            { border:1px solid #9abae9; border-radius:5px; background:url() repeat-x 0 0;}
+
+.datagrid-header-inner		{ background:#fdfdfd url() repeat-x bottom; border-bottom:1px solid #ccc;}
+.datagrid-htable th			{ border-right:1px solid #ccc; border-bottom:1px solid #999; background:#fdfdfd url() repeat-x bottom;}
+.datagrid-btable td			{ border-right:1px solid #ccc; border-bottom:1px solid #ccc;}
+
+
+
+/**
+ * 翻页
+ */
+.pager-btn                  { border:1px solid #9abae9; border-radius:5px; background:url() repeat-x 0 0;}
+
+
+/**
+ * 详细
+ */
+.datadetail-toolbar			{ border-bottom:1px solid #9abae9;}
+.datadetail-table			{ border-color:#e0e0e0;}
+.datadetail-table th		{ border-color:#e0e0e0; background:#fafbfd; color:#114488;}
+.datadetail-table td		{ border-color:#e0e0e0; background:#fff;}
+.datadetail-table td textarea  { text-align:left; resize:none; width:360px; height:340px; padding-left:0px;}
+
+/**
+ * 底部
+ */
+#footer a					{ color:#fff;}
+
+
+/**
+ * 皮肤选择框
+ */
+#skinbox					{ border:1px solid #5588cc; background:#eef6f6;}
+.skin-arrow					{ background:url(blue/skin-arrow.gif);}
+
+
+
+/**
+ * 按钮样式
+ */
+.btn-toolbar		        { border:1px solid #9abae9; border-radius:5px; background:url() repeat-x 0 0;}

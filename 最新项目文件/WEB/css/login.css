@@ -1,0 +1,47 @@
+body				{ font:16px/1.5 "宋体"; overflow:hidden;}
+body, div, 
+dl, dt, dd, form, 
+input, textarea		{ padding:0;margin:0;word-break:break-all;word-wrap:break-word;}
+li					{ list-style-type:none;}
+img					{ vertical-align:middle;border:none;}
+ol, ul				{ list-style:none;}
+
+body				{ color:#666; background:#fdfdff url(../img/bg.jpg) repeat-x top;}
+a					{ color:#666; text-decoration:none; cursor:pointer;}
+a:hover				{ color:#aa2222; text-decoration:underline;}
+
+.clearfix:after		{ clear:both; height:0; overflow:hidden; display:block; visibility:hidden; content:".";}
+.clearfix			{ zoom:1;}
+*html .clearfix		{ height:1%;}
+
+
+#panel				{ width:400px; height:380px; padding:144px 120px 40px 120px; margin:0 auto; position:relative;
+					  background:url(../img/panel.jpg) no-repeat 0 144px;}
+.header				{ padding:78px 0 10px 0; text-align:center;}
+.pbody				{ padding:20px 0;}
+.pbody dl			{ height:40px; font-size:0.75em;}
+.pbody dt			{ width:274px; float:right; vertical-align:middle; padding-top:3px;}
+.pbody dd			{ width:116px; float:left; text-align:right; line-height:35px;}
+.pbody dt input		{ vertical-align:middle;}
+.input-l,.input-s	{ padding:3px 5px 3px 5px; height:20px; line-height:20px; border:none;
+					  background-image:url(../img/sprite.jpg); background-repeat:no-repeat;}
+.input-l			{ padding-left:30px; width:155px; background-position:0 0;}
+.input-l.hover		{ background-position:0 -29px;}
+.input-s			{ width:90px;  background-position:-100px -56px;}
+.input-s.hover		{ background-position:-100px -83px;}
+.submit				{ width:100px; height:30px; padding:0; border:none; background:url(../img/sprite.jpg) no-repeat 0 -57px;}
+.submit:hover		{ background-position:0 -89px;}
+.name, .pwd			{ position:relative;}
+.name span, .pwd span { display:block; position:absolute; width:13px; height:15px; top:10px; left:10px;
+					  background:url(../img/sprite.jpg) no-repeat;}
+.name span			{ background-position:-105px -113px;}
+.pwd span			{ background-position:-128px -113px;}
+
+.footer				{ padding-top:80px;}
+.footer p			{ font-size:0.75em; text-align:center;}
+
+#ball1, #ball2		{ position:absolute;}
+#ball1				{ top:144px; left:100px;}
+#ball2				{ top:34px; left:800px;}
+
+

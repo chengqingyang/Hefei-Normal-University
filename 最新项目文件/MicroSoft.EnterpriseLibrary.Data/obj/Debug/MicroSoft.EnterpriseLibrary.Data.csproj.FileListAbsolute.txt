@@ -1,0 +1,14 @@
+D:\发布的WEB\直达校园\MicroSoft.EnterpriseLibrary.Data\bin\Debug\MicroSoft.EnterpriseLibrary.Data.dll
+D:\发布的WEB\直达校园\MicroSoft.EnterpriseLibrary.Data\bin\Debug\MicroSoft.EnterpriseLibrary.Data.pdb
+D:\发布的WEB\直达校园\MicroSoft.EnterpriseLibrary.Data\obj\Debug\ResolveAssemblyReference.cache
+D:\发布的WEB\直达校园\MicroSoft.EnterpriseLibrary.Data\obj\Debug\MicroSoft.EnterpriseLibrary.Data.Properties.Resources.resources
+D:\发布的WEB\直达校园\MicroSoft.EnterpriseLibrary.Data\obj\Debug\MicroSoft.EnterpriseLibrary.Data.csproj.GenerateResource.Cache
+D:\发布的WEB\直达校园\MicroSoft.EnterpriseLibrary.Data\obj\Debug\MicroSoft.EnterpriseLibrary.Data.dll
+D:\发布的WEB\直达校园\MicroSoft.EnterpriseLibrary.Data\obj\Debug\MicroSoft.EnterpriseLibrary.Data.pdb
+F:\校园项目文件\最新项目文件\直达校园\直达校园\MicroSoft.EnterpriseLibrary.Data\bin\Debug\MicroSoft.EnterpriseLibrary.Data.dll
+F:\校园项目文件\最新项目文件\直达校园\直达校园\MicroSoft.EnterpriseLibrary.Data\bin\Debug\MicroSoft.EnterpriseLibrary.Data.pdb
+F:\校园项目文件\最新项目文件\直达校园\直达校园\MicroSoft.EnterpriseLibrary.Data\obj\Debug\ResolveAssemblyReference.cache
+F:\校园项目文件\最新项目文件\直达校园\直达校园\MicroSoft.EnterpriseLibrary.Data\obj\Debug\MicroSoft.EnterpriseLibrary.Data.Properties.Resources.resources
+F:\校园项目文件\最新项目文件\直达校园\直达校园\MicroSoft.EnterpriseLibrary.Data\obj\Debug\MicroSoft.EnterpriseLibrary.Data.csproj.GenerateResource.Cache
+F:\校园项目文件\最新项目文件\直达校园\直达校园\MicroSoft.EnterpriseLibrary.Data\obj\Debug\MicroSoft.EnterpriseLibrary.Data.dll
+F:\校园项目文件\最新项目文件\直达校园\直达校园\MicroSoft.EnterpriseLibrary.Data\obj\Debug\MicroSoft.EnterpriseLibrary.Data.pdb

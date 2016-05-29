@@ -1,0 +1,25 @@
+一、安装说明
+1、Git在windows平台上安装说明。
+
+ Git for Windows是专为Windows平台开发的一套轻量化、本地化Git SCM工具，支持所有Git功能特性。msysgit包含一个命令行工具Git Bash和一个gui工具Git GUI。对于习惯TortoiseSVN的同学来说，或许Git GUI太简陋了，没关系，安装完msysgit后你依然可以安装TortoiseGit，实现svn到git的平滑过渡。
+Git是一个免费的、开源的版本控制软件，相比传统Subversion(SVN)这类版本控制软件有着先进的功能优势，越来越多项目开始采用Git系统进行管理。Git for Windows包含Git BASH、Git GUI和Shell Integration模块。
+TortoiseGit(git客户端x64位)是一款优秀的Windows64位系统下的Git可视化图形客户端，有了TortoiseGit就可以方便地管理Git，不需要打命令了。在Windows下用SVN的朋友，应该对TortoiseSvn不陌生，一个小乌龟的图标。TortoiseGit和TortoiseSVN用法差不多，都是集成在右键菜单中了，非常方便！
+ 
+
+
+三、安装过程
+
+安装教程(如何在windows下安装GIT)：http://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html
+
+
+
+Github注册账号：
+https://github.com/
+
+用户名：chengqingyang
+邮箱：xiyanrenxuan@163.com
+密码：root159753
+
+
+搜索github开源项目
+https://github.com/search?utf8=%E2%9C%93&q=awesome

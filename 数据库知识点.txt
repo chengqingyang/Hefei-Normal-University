@@ -1,0 +1,65 @@
+
+
+1.修改表的字段：
+
+1）.脚本更改表字段
+
+/* 给表添加字段，修改某个字段的字段类型 */
+IF not exists(select a.name from syscolumns a,sysobjects b where a.id = b.id and a.name = 'MQZZMC' and b.name = 'JB_GXY_SFJL')
+    ALTER TABLE JB_GXY_SFJL ADD MQZZMC varchar(255)
+ELSE
+      ALTER TABLE JB_GXY_SFJL ALTER COLUMN MQZZMC varchar (255) 
+GO
+
+/* 修改某个字段的名称 */
+IF exists(select a.name from syscolumns a,sysobjects b where a.id = b.id and a.name = 'DJRY' and b.name = 'JB_GXY_SFJL')
+	EXEC sp_rename 'JB_GXY_SFJL.[DJRY]', 'DJRYXM', 'column' 
+GO
+
+2）.手工修改
+
+如果表没有数据：
+
+添加非空字段，更改数据类型会提示失败：工具-选项-Designer-表设计器       勾掉“阻止保存要求重新创建表的更改“选项
+
+表中有数据：
+
+添加非空字段始终不被允许。
+
+
+2.SQL对大小写不敏感
+
+3.DISTINCT 去掉重复项
+
+
+4. INSERT INTO TABLE1 SELECT * FROM TABLE2  要求 TABLE1 必须存在
+   SELECT * INTO TABLE1 FROM TABLE2         要求 TABLE1不存在  自动创建TABLE1,如果表名不加#，则在选择的数据库中创建一张实体表
+
+ 
+ 
+5.假设TABLE1有10条记录 SELECT TOP 5 * FROM TABLE1 和  SELECT  TOP 50 PERCENT * FROM TABLE1 等价
+	MYSQL语法：SELECT * FROM TABLE1 LIMIT 5
+	ORACLE语法：SELECT * FROM TABLE1 WHERE ROWNUM<=5
+
+6.在我们继续讲解实例之前，我们先列出您可以使用的不同的 SQL JOIN 类型：
+INNER JOIN：如果表中有至少一个匹配，则返回行
+LEFT JOIN：即使右表中没有匹配，也从左表返回所有的行   注释：在某些数据库中，LEFT JOIN 称为 LEFT OUTER JOIN。
+RIGHT JOIN：即使左表中没有匹配，也从右表返回所有的行
+FULL JOIN：只要其中一个表中存在匹配，则返回行	
+	
+7.UNION (去除重复项) 和UNION ALL 
+SELECT  C1，C2 FROM  TABLE1
+UNION
+SELECT  C1，C2 FROM TABLE2
+	
+
+8.提示：SELECT INTO 语句可用于通过另一种模式创建一个新的空表。只需要添加促使查询没有数据返回的 WHERE 子句即可：
+SELECT *INTO newtable FROM table1 WHERE 1=0;	
+	
+9.ORACLE 整形 NUMBER(10),小数number(m,n) 字符型 VARCHAR2(N),
+	
+	
+	
+	
+	
+	

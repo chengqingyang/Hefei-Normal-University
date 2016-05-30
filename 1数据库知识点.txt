@@ -58,7 +58,23 @@ SELECT *INTO newtable FROM table1 WHERE 1=0;
 	
 9.ORACLE 整形 NUMBER(10),小数number(m,n) 字符型 VARCHAR2(N),
 	
-	
+10.分组
+
+1）执行顺序
+SELECT * FROM WHERE /GROUP BY / HAVING /ORDER BY 
+
+2）需要分组的所有列都必须位于GROUP BY子句的列名列表中，也就是没有出现在GROUP BY
+子句中的列（聚合函数除外）是不能放到SELECT语句后的列名列表中的。
+
+3）GROUP BY子句中可以指定多个列，只需要将多个列的列名用逗号隔开即可。指定多个分组
+规则以后，数据库系统将按照定义的分组顺序来对数据进行逐层分组，首先按照第一个分组列进
+行分组，然后在每个小组内按照第二个分组列进行再次分组……逐层分组，从而实现“组中组”
+的效果，而查询的结果集是以最末一级分组来进行输出的。
+
+11.窗口函数ROW_NUMBER()	
+ROW_NUMBER()函数可以计算每一行数据在结果集中的行号（从1开始计数）
+
+SELECT ROW_NUMBER() OVER(ORDER BY 字段名)
 	
 	
 	

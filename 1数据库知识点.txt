@@ -1,4 +1,4 @@
-
+﻿
 
 1.修改表的字段：
 
@@ -75,6 +75,8 @@ SELECT * FROM WHERE /GROUP BY / HAVING /ORDER BY
 ROW_NUMBER()函数可以计算每一行数据在结果集中的行号（从1开始计数）
 
 SELECT ROW_NUMBER() OVER(ORDER BY 字段名)
+
+12
 	
 	
 	
